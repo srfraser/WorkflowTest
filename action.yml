@@ -1,0 +1,12 @@
+name: 'Run a workflow test'
+author: 'Simon Fraser'
+description: 'Run a noddy test'
+outputs:
+  WorkflowTest-output:
+    description: 'The output'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'check-circle'
+  color: 'green'
